@@ -5,16 +5,17 @@ module.exports = {
     jest: true,
   },
 
-  extends: 'airbnb-base'
+  extends: 'airbnb-base',
+
+  parser: 'babel-eslint',
 
   parserOptions: {
     ecmaVersion: 7,
+    sourceType: 'module',
     ecmaFeatures: {
       experimentalObjectRestSpread: true,
       impliedStrict: true,
     }
-    parser: 'babel-eslint',
-    sourceType: 'module',
   },
 
   plugins: [
