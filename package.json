@@ -1,6 +1,6 @@
 {
   "name": "crawler",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Consumer of jobs",
   "main": "src/index.js",
   "repository": "git@gitlab.com:junior-tech-list/job-crawler.git",
