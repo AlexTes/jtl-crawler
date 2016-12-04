@@ -4,7 +4,9 @@
   "description": "Consumer of jobs",
   "main": "src/index.js",
   "scripts": {
-    "start": "babel-node script/run start"
+    "lint": "eslint src",
+    "start": "babel-node script/run start",
+    "test": "jest --watch"
   },
   "repository": "git@gitlab.com:junior-tech-list/job-crawler.git",
   "author": {
@@ -18,6 +20,8 @@
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-eslint": "^7.1.1",
+    "babel-jest": "^17.0.2",
+    "babel-polyfill": "^6.16.0",
     "babel-preset-latest": "^6.16.0",
     "eslint": "^3.11.1",
     "eslint-config-airbnb-base": "^10.0.1",
@@ -25,6 +29,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-promise": "^3.4.0",
     "flow-bin": "^0.36.0",
+    "jest": "^17.0.3",
     "nodemon": "^1.11.0"
   }
 }
