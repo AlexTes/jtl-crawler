@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Consumer of jobs",
   "main": "src/index.js",
+  "scripts": {
+    "start": "babel-node script/run start"
+  },
   "repository": "git@gitlab.com:junior-tech-list/job-crawler.git",
   "author": {
     "name": "Alexander Tesfamichael",
@@ -10,7 +13,8 @@
   },
   "license": "MIT",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+  },
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-eslint": "^7.1.1",
@@ -20,6 +24,7 @@
     "eslint-plugin-flowtype": "^2.29.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-promise": "^3.4.0",
-    "flow-bin": "^0.36.0"
+    "flow-bin": "^0.36.0",
+    "nodemon": "^1.11.0"
   }
 }
