@@ -1,4 +1,6 @@
 [ignore]
+<PROJECT_ROOT>/node_modules/esformatter/test/.*
+<PROJECT_ROOT>/node_modules/esformatter-flow/test/.*
 
 [include]
 
