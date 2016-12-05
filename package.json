@@ -32,6 +32,7 @@
     "esformatter": "^0.10.0",
     "esformatter-add-trailing-commas": "^1.1.0",
     "esformatter-align": "^0.2.3",
+    "esformatter-collapse-objects": "^0.5.1",
     "esformatter-curly": "^0.0.2",
     "esformatter-flow": "^1.0.1",
     "esformatter-limit-linebreaks": "^0.0.3",
