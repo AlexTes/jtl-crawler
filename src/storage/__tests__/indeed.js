@@ -35,5 +35,4 @@ it('should retrieve an indeed job successfully', async () => {
 
 afterAll(async () => {
   await r.table('indeed').filter({ source: 'Mock' }).delete().run();
-  await r.getPoolMaster().drain();
 });
