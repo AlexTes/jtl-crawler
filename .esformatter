@@ -13,8 +13,8 @@
     "AssignmentExpression": 0,
     "TernaryExpression":    1,
     "OrExpression":         1,
-    "SpreadAlignment":      "value", // optional: "value" 
-    "ShorthandAlignment":   "value"  // optional: "value" 
+    "SpreadAlignment":      "key", // optional: "value"
+    "ShorthandAlignment":   "value"  // optional: "value"
   },
 
   "quotes": {
