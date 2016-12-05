@@ -10,4 +10,4 @@ const env = envalid.cleanEnv(process.env, {
 winston.cli();
 winston.level = env.LOG_LEVEL;
 
-winston.info('exit');
+winston.info('exiting');
