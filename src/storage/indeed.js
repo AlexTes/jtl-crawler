@@ -6,6 +6,9 @@ const r = rdbdBuilder({
   silent: true,
 });
 
+type RawIndeedJob = RawIndeedJob;
+type IndeedJob = IndeedJob;
+
 export function store(job: RawIndeedJob): Promise<string> {
   return r
     .table('indeed')
