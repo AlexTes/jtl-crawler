@@ -9,8 +9,8 @@ const r = rdbdBuilder({
   silent: true,
 });
 
-type IndeedJob = job.IndeedJob;
-type RawIndeedJob = job.RawIndeedJob;
+type IndeedJob = IndeedJob;
+type RawIndeedJob = RawIndeedJob;
 
 function stripGeneratedProps(indeedJob: IndeedJob): RawIndeedJob {
   return omit(indeedJob, 'createdAt', 'id', 'updatedAt');
