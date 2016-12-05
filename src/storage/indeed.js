@@ -29,31 +29,11 @@ export type RawIndeedJob = {
   stations: string,
 };
 
-export type IndeedJob = {
-  jobtitle: string,
-  company: string,
-  city: string,
-  state: string,
-  country: string,
-  formattedLocation: string,
-  source: string,
-  date: string,
-  snippet: string,
-  url: string,
-  onmousedown: string,
-  latitude: number,
-  longitude: number,
-  jobkey: string,
-  sponsored: boolean,
-  expired: boolean,
-  indeedApply: boolean,
-  formattedLocationFull: string,
-  formattedRelativeTime: string,
-  stations: string,
+export type IndeedJob = RawIndeedJob & {
   createdAt: string,
   id: string,
   updatedAt: string,
-}
+};
 
 export function store(job: RawIndeedJob): Promise<string> {
   return r
