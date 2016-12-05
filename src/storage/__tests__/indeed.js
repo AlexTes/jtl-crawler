@@ -21,6 +21,10 @@ it('should store an indeed job successfully', async () => {
   const rawJob = await r.table('indeed').get(id);
   const cleanJob = stripGeneratedProps(rawJob);
   expect(cleanJob).toEqual(mockJob);
+  expect(rawJob.createdAt).toBeInstanceOf(Date);
+  expect(typeof rawJob.id).toBe('string');
+  expect(rawJob.updatedAt).toBeInstanceOf(Date);
+});
 });
 
 afterAll(async () => {
