@@ -1,0 +1,49 @@
+{
+  "root": true,
+  "plugins": [
+    "esformatter-add-trailing-commas",
+    "esformatter-align",
+    "esformatter-curly",
+    "esformatter-flow",
+    "esformatter-limit-linebreaks"
+  ],
+  "align": {
+    "ObjectExpression":     1,
+    "VariableDeclaration":  0,
+    "AssignmentExpression": 0,
+    "TernaryExpression":    1,
+    "OrExpression":         1,
+    "SpreadAlignment":      "value", // optional: "value" 
+    "ShorthandAlignment":   "value"  // optional: "value" 
+  },
+
+  "quotes": {
+    "type": "single"
+  },
+
+  "collapseObjects": {
+    "ObjectExpression": {
+      "maxLineLength": 79,
+      "maxKeys": 1
+    }
+  },
+
+  "indent" : {
+    "value": "  ",
+    "AlignComments": true
+  },
+
+  "whiteSpace": {
+    "before": {
+      "ObjectExpressionClosingBrace": 1,
+      "ObjectPatternClosingBrace": 1,
+      "ModuleSpecifierClosingBrace": 1,
+      "PropertyName": 1
+    },
+    "after": {
+      "ObjectExpressionOpeningBrace": 1,
+      "ObjectPatternOpeningBrace": 1,
+      "ModuleSpecifierOpeningBrace": 1
+    }
+  }
+}
