@@ -4,8 +4,8 @@
   "description": "Consumer of jobs",
   "main": "src/index.js",
   "scripts": {
-    "lint": "eslint src",
     "format": "esformatter src/",
+    "lint": "eslint src/",
     "start": "babel-node script/run start",
     "test": "jest --watch"
   },
