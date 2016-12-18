@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint src",
+    "format": "esformatter src/",
     "start": "babel-node script/run start",
     "test": "jest --watch"
   },
