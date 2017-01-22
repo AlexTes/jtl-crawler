@@ -9,7 +9,10 @@
     "start": "babel-node script/run start",
     "test": "jest --watch"
   },
-  "repository": "git@gitlab.com:junior-tech-list/job-crawler.git",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/AlexTes/jtl-crawler.git"
+  },
   "author": {
     "name": "Alexander Tesfamichael",
     "email": "alex.tesfamichael@gmail.com"
