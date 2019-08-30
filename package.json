@@ -22,7 +22,7 @@
   "dependencies": {
     "envalid": "^2.4.1",
     "got": "^6.6.3",
-    "lodash": "^4.17.2",
+    "lodash": "^4.17.13",
     "rethinkdbdash": "^2.3.27",
     "winston": "^2.3.0"
   },
