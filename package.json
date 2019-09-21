@@ -9,9 +9,9 @@
     "start": "babel-node script/run start",
     "test": "jest --watch"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/AlexTes/jtl-crawler.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexTes/jtl-crawler.git"
   },
   "author": {
     "name": "Alexander Tesfamichael",
@@ -41,7 +41,7 @@
     "esformatter-curly": "^0.0.2",
     "esformatter-flow": "^1.0.1",
     "esformatter-limit-linebreaks": "^0.0.3",
-    "eslint": "^3.11.1",
+    "eslint": "^4.18.2",
     "eslint-config-airbnb-base": "^10.0.1",
     "eslint-plugin-flowtype": "^2.29.1",
     "eslint-plugin-import": "^2.2.0",
